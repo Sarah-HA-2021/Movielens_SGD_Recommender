@@ -1,5 +1,4 @@
-# Movielens-SaraHM16
-
+# Movielens_SGD_Recommender
 ## SGD based recommender System On MovieLens dataset
 
 # Refrences
