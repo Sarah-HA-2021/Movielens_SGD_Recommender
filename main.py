@@ -88,19 +88,6 @@ from losses import rmse_loss
 def prediction(P,Q):
     return np.dot(P.T,Q)
 
-
-#---------------------------------------------
-# steepest gradient descent 
-
-#---------------------------------------------
-#momentum 
-
-#The sparse matrix representation outputs the row-column tuple where the matrix contains non-zero values along with those values.
-m, n = train.shape  # Number of users and
-from scipy import sparse
-Y=sparse.csc_matrix(train)
-
-
 #---------------------------------------------
 # Stochastic gradient descent Method 
 # parameters of optomization 
